@@ -1,0 +1,44 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+ERROR:loader.views:Загруженный файл неподдерживаемого формата
+NoneType: None
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:12:54] "POST /post HTTP/1.1" 200 -
+ERROR:loader.views:Загруженный файл неподдерживаемого формата
+NoneType: None
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:12:57] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:13:15] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:13:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:13:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:13:17] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:13:17] "[36mGET /uploads/images/IMG_4867.PNG HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:13:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+WARNING:loader.views:Ошибка при загрузке
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:13:18] "POST /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:13:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:13:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:13:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:main.views:Поиск по запросу rr
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:13:29] "GET /search?s=rr HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:13:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:16:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:16:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:16:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:main.views:Поиск по запросу лето
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:16:29] "GET /search?s=лето HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:16:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:16:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:16:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:16:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:main.views:Поиск по запросу песок
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:16:34] "GET /search?s=песок HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:16:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:16:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:16:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:16:35] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:main.views:Поиск по запросу пе
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:16:38] "GET /search?s=пе HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:16:38] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:16:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:16:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [21/Jun/2022 14:16:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
