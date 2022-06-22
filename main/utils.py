@@ -2,12 +2,14 @@ import json
 
 
 def read_json():
+    """Unpacking json file"""
     with open("./posts.json") as file:
         all_posts = json.load(file)
     return all_posts
 
 
 def search_post(all_posts, word):
+    """Find the posts by the word"""
     founded_posts = []
     for post in all_posts:
         if word.lower() in post["content"].lower():
@@ -16,6 +18,7 @@ def search_post(all_posts, word):
 
 
 def json_writer(post):
+    """Write down a new post"""
     all_posts = read_json()
     all_posts.append(post)
     with open("./posts.json", "w") as file:
