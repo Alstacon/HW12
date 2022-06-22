@@ -1,4 +1,4 @@
-from functions import check_extension, json_writer
+from loader.utils import check_extension, json_writer
 from flask import request, Blueprint, render_template
 import logging
 

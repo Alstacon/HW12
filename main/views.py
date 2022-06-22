@@ -1,6 +1,6 @@
 
 from flask import Blueprint, render_template, request
-from functions import search_post, read_json
+from main.utils import search_post, read_json
 import logging
 
 logging.basicConfig(
